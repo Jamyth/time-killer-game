@@ -1,8 +1,8 @@
 import { observer } from "mobx-react";
 import React from "react";
-import "./index.less";
 import { ButtonPanel } from "./ButtonPanel";
 import { gameStore } from "../store";
+import "./index.less";
 
 export const Main = observer(() => {
     React.useEffect(() => {
